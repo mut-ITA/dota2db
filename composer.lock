@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "c0905e2d802ba9ad1eb290b1f66aba9a",
+    "content-hash": "076d9d2b0c5d24ba7a55d3dd6ddaf384",
+    "packages": [
+        {
+            "name": "kronusme/dota2-api",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kronusme/dota2-api.git",
+                "reference": "ec726d0a7b70a3c4c2be136db485543132d3fd84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kronusme/dota2-api/zipball/ec726d0a7b70a3c4c2be136db485543132d3fd84",
+                "reference": "ec726d0a7b70a3c4c2be136db485543132d3fd84",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.2"
+            },
+            "require-dev": {
+                "phpunit/dbunit": ">=1.2",
+                "phpunit/phpunit": "4.4.*",
+                "satooshi/php-coveralls": "~1.0",
+                "sebastianbergmann/phpcov": "1.1.0",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dota2Api\\": "includes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "KronuS Me",
+                    "email": "kronusme@gmail.com",
+                    "homepage": "http://kronus.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "DotA 2 Web API PHP wrapper",
+            "keywords": [
+                "api",
+                "dota2",
+                "sdk",
+                "wrapper"
+            ],
+            "time": "2016-06-30 09:33:53"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

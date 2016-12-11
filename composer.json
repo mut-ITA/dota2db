@@ -1,0 +1,5 @@
+{
+    "require": {
+        "kronusme/dota2-api": "2.2.1"
+    }
+}
